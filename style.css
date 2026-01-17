@@ -1,0 +1,20 @@
+html,body{height:100%;margin:0;background:#88c0ff;font-family:Arial, sans-serif}
+/* Layout: left HUD, center game (100% height) */
+.page{display:flex;height:100vh}
+#hud-left{width:20%;background:#f4f4f4;padding:8px;box-sizing:border-box;overflow:auto}
+#game-area{width:80%;display:flex;align-items:center;justify-content:center}
+#game-container{width:100%;height:100%;display:flex;align-items:center;justify-content:center}
+canvas{background:#cde;box-shadow:0 4px 10px rgba(0,0,0,0.2);max-width:100%;height:auto}
+
+/* Small utilities */
+.party-box{background:#fff;padding:6px;margin-bottom:8px;border-radius:4px;}
+.hp-bar-wrap{background:#ddd;height:10px;width:80%;border-radius:6px;overflow:hidden}
+.hp-bar{height:100%}
+
+.party-logo{width:36px;height:36px;border-radius:50%;object-fit:cover;margin-right:8px}
+
+/* HUD bottom square buttons, 2x2 grid */
+.hud-button{width:90px;height:60px;background:#444;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;border-radius:6px;cursor:pointer;user-select:none;box-shadow:0 2px 5px rgba(0,0,0,0.3);transition:all 0.2s}
+.hud-button:hover:not([style*="opacity:0.5"]){background:#555}
+.hud-button.selected{outline:3px solid #ffd700}
+
