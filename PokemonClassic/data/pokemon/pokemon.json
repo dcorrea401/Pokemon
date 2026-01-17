@@ -1,0 +1,6 @@
+[
+  { "id":1, "name":"Pidgey", "type":["Normal","Flying"], "hp":40, "maxHp":40, "attack":6 },
+  { "id":2, "name":"Rattata", "type":["Normal"], "hp":30, "maxHp":30, "attack":5 },
+  { "id":3, "name":"Bulbasaur", "type":["Grass"], "hp":45, "maxHp":45, "attack":7 },
+  { "id":4, "name":"Charmander", "type":["Fire"], "hp":39, "maxHp":39, "attack":8 }
+]
